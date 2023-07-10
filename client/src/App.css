@@ -1,0 +1,162 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#fullscreen-button-div {
+  width: 70px;
+  height: 70px;
+  object-fit: contain;
+}
+#fullscreen-button-img {
+  width: 100%;
+  height: 100%;
+  background: url("fullscreen-button.png") no-repeat center;
+  object-fit: contain;
+}
+.spacer {
+  margin-top: 10px;
+}
+.empty-absolute {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.player-name {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+  pointer-events: none;
+}
+.enterRoom-container {
+  background-image: url(bkg.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.enterRoom-text {
+  color: rgb(255, 255, 255);
+  font-size: 35px;
+  width: 300px;
+  height: 50px;
+  text-align: left;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.enterRoom-input {
+  background-color: white;
+  width: 300px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.enterRoom-sendBtn {
+  background-color: white;
+  width: 250px;
+  height: 50px;
+  font-size: 35px;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.sketch-container {
+  background-image: url(bkg.png);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: top;
+  flex-direction: column;
+}
+.sketch-title {
+  background-color: white;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sketch-sendBtn {
+  background-color: white;
+  margin-top: 10px;
+  width: 90%;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sketch-content {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.game-content {
+  width: 1664px;
+  height: 936px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.testtest {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.game-container {
+  background-color: #bea169;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
